@@ -7,9 +7,7 @@ class FBelugaModule : public FDefaultGameModuleImpl
 public:
 	virtual void StartupModule() override
 	{
-
 		UE_LOG(LogBeluga, Display, TEXT("BelugaModule::StartupModule"));
-
 	}
 	virtual void ShutdownModule() override
 	{
